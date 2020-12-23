@@ -1,6 +1,9 @@
 *, *::after, *::before {
     box-sizing: border-box;
 }
+html { 
+    scroll-behavior: smooth;
+ }
 
 @font-face {
     font-family: 'balqis';
@@ -100,7 +103,7 @@ ul {
     display: inline-block;
 }
 
-.menu__list-item+.menu__list-item {
+.menu__list-item + .menu__list-item {
     margin-left: 52px;
 }
 
@@ -390,8 +393,6 @@ ul {
     padding-top: 96px;
 }
 
-.container {}
-
 .footer__inner {
     display: flex;
     justify-content: space-between;
@@ -404,7 +405,7 @@ ul {
     background-image: url('../images/footer-contact.png');
     background-repeat: no-repeat;
     text-align: center;
-   
+    background-size: cover;
 }
 
 .footer__contacts-title {
@@ -455,10 +456,9 @@ ul {
     margin: 0 7px;
 }
 
-.footer__social-link {}
-
 .footer__text {
     font-family: 'balqis';
     font-size: 86px;
     line-height: 115px;
 }
+
