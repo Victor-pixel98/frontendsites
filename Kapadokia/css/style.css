@@ -318,7 +318,8 @@ ul {
     justify-content: space-around
 }
 
-.contacts__date, .contacts__price {
+.contacts__date, 
+.contacts__price {
     font-family: 'balqis';
     font-size: 96px;
     line-height: 100px;
@@ -334,7 +335,8 @@ ul {
     margin-left: 120px;
 }
 
-.contacts__date span, .contacts__price span {
+.contacts__date span, 
+.contacts__price span {
     display: block;
     font-size: 24px;
     line-height: 28px;
